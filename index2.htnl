@@ -1,0 +1,49 @@
+
+<div id="fullpage">
+<!--=========================================================================-->
+	<div class="section " id="section0">
+	   <div id="title">
+            <ul>
+                <li>Tomato's</li>
+                <li>Profile </li>
+                <li id="subtitle"> yiting0807@gmail.com</li>
+            </ul>
+        </div> 
+	</div>
+<!--	=====================================================================-->
+	<div class="section" id="section1">
+        <video width="100%" autoplay="autoplay" loop muted id="bgVideo">
+              <source src="/video/sea2.mov">
+        </video>
+        <div id="profile-content">
+               <h1>王薏婷  Tomato Wang</h1>
+               <p>工作經歷</p>
+               <ul>
+                   <li>2012-2016 頑石創意股份有限公司 互動程式設計師</li>
+                   <li>2011-2012 桑河數位科技 互動程式設計師</li>
+               </ul>
+               <p>學歷</p>
+               <ul>
+                   <li>2008-2011 國立雲林科技大學 設計運算研究所</li>
+                   <li>2004-2008 靜宜大學 資訊傳播工程學系</li>
+                   <li>1998-2004 私立輔仁中學</li>
+               </ul>
+       
+               <p>論文著作</p>
+       
+               <p>得獎經歷</p>
+               <ul>
+                    <li>2013 - 國立自然科學博物館行動悠遊探索背包APP - 美國博物館獎第二名</li>
+                    <li>2012 - 故宮坤與全圖 - 美國博物館獎第三名</li>
+                    <li>2010 - 「聚合物」,第五屆 KT 競賽 互動數位藝術組 佳作</li>           
+                    <li>2009 - 「FUN 自然」,第五屆數位優勢競賽 互動科技組 首獎</li>
+                    <li>2009 - 「NOW」,第五屆數位優勢競賽 互動科技組 佳作</li>
+                    <li>2007 - 「Twelve Teacher Task」,96 年度靜宜大學資訊學院畢業專題競賽,資訊傳播工程組第三名</li>
+                    <li>2007 - 教育部優秀資訊志工</li>
+               </ul>  
+        </div>
+	</div>
+<!--	======================================-->
+	<div class="section" id="section2"><h1>Lovely images <br />for a lovely page</h1></div>
+	<div class="section" id="section3"><h1>One Image = One thousand words</h1></div>
+</div>

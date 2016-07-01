@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+#menu{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color:azure;
+    display: inline;
+    text-align: right;
+    
+   
+}
+
+#title{
+    width:100%;
+    height: 100vh;
+    background-image: url(../image/IMG_1372.JPG);
+    background-size: cover;
+    margin: auto;/*當在flex下，設為auto時，就會垂直與水平居中*/
+    display:inline-flex;
+    align-items:center; /*文字水平居中*/
+    justify-content:center;/*文字垂直居中*/
+    opacity: 0.75;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+#title ul{
+    list-style: none;
+}
+.bgVideoDiv{
+    opacity: 0.7;
+    
+}
+.BgVideo{
+        
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+        
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section1 .content{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+        height: 100vh;
+		left: 0;
+		top:0;
+
+             margin: auto;/*當在flex下，設為auto時，就會垂直與水平居中*/
+    display:inline-flex;
+    align-items:center; /*文字水平居中*/
+    justify-content:center;/*文字垂直居中*/  
+        
+        
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section1{
+		overflow: hidden;
+       
+	}
+#profile_img{
+    
+    
+}
+#profile_content{
+    background-color: cornsilk;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: left;
+    color: darkslategray;
+    border-radius: 35px;
+    background-color:rgba(100%,100%, 100%, 0.7);
+    padding: 30px; 
+    -moz-box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+    -webkit-box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+    box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+    
+}
+
+
+
+
+#section2{
+    overflow: hidden;
+}
+#section2 .content{
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+        height: 100vh;
+		left: 0;
+		top:0;
+    
+    margin: auto;/*當在flex下，設為auto時，就會垂直與水平居中*/
+    display:inline-flex;
+    align-items:center; /*文字水平居中*/
+    justify-content:center;/*文字垂直居中*/ 
+    
+/*    background-color: yellow;*/
+}
+.work_img{
+    padding-bottom: 10px;
+}
+
+#timeline-container-basic{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    
+}
+
+
+.bgVideo { 
+    
+        position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:1;
+
+}
+#work_content{
+    
+    z-index: 4;
+}
+#profile-content{
+/*     font-family: 'cwTeXHei',serif;*/
+
+}
+#profile-content h1{
+    color: black;
+}
+#profile-content p{
+    color: rgba(20%,20%, 20%,1);
+    font-weight: bold;
+    
+}
+#title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color:azure;
+/*    display: none;*/
+}
+#subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:aquamarine;
+}
