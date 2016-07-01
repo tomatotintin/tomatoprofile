@@ -1,6 +1,26 @@
 		$(document).ready(function() {
+            $('#profile_content').css("display","none");
+            $('#profile_img').css("display","none");
+            $('#title_words').css("display","none");
+            $('.work_img').css("display","none");
+            
+            $('.work_img').hover(
+                function(){
+                    $(this).find('span').animate({
+                        top: "87%"
+                    }, 500);
+                   
+                    console.log("image hover ");
+                },
+                function(){
+                    $(this).find('span').animate({
+                        top: "100%"
+                    }, 500);
+                    console.log("image hover out")
+                }
+            );
 			$('#fullpage').fullpage({
-				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+				sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE'],
                     onLeave: function(index, nextIndex, direction){
 						console.log("onLeave--" + "index: " + index + " nextIndex: " + nextIndex + " direction: " +  direction);
                         if(index==1){
