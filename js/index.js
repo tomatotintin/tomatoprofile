@@ -8,14 +8,22 @@
                 function(){
                     $(this).find('span').animate({
                         top: "87%"
+<<<<<<< HEAD
                     }, 500);
+=======
+                    }, 300);
+>>>>>>> master
                    
                     console.log("image hover ");
                 },
                 function(){
                     $(this).find('span').animate({
                         top: "100%"
+<<<<<<< HEAD
                     }, 500);
+=======
+                    }, 300);
+>>>>>>> master
                     console.log("image hover out")
                 }
             );
@@ -68,4 +76,3 @@
 			});
                  
 		});
-
